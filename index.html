@@ -1,67 +1,36 @@
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>I am John Doe</h1>
+    <p>And I'm a Photographer</p>
+    <button>Hire me</button>
+  </div>
+</div>
 
-<html>
-  <title>
-    The Woods
-  </title>
-  
-  <body>
-    <h1 style="color:white; text-align:center; font-size:300%;">Welcome to the Woods</h1>
-    <div class="container">
-      <header>
-        <h2 style="font-size:150%;"> Quote of the day...</h2>
-        <p><i>“You got a dream. You gotta protect it. People can't do something themselves, they wanna tell you you can't do it. If you want something, go get it. Period.”</i></p>
-        <p>- Will Smith (The Pursuit of Happyness) </p>
-      </header>
-    </div>
-    <div>
-      <p> </p>
-      <h2 style="color:white; text-align: center;"><ins>Click the image to <strong>download</strong> it</ins></h2>
-    </div>
-      <center><img src="bear.gif" alt="Bear" align="middle" style="border:5px solid White;" border-color="green"></center>
-      <a/>
-    </div>
-      <p></p>
-      <div>
-<header>
-  <h3> 3 RULES FOR MEETING A BEAR!!! </h3>
-           <li>Don't Look at them</li>
-           <li>Don't feed them honey, they do not like it</li>
-            <li>Don't lick 'em</li>
-        </header>
-       </div>
-      <div>
-        <p></p>
-        <center><img src="fire.JPG" style="border:5px solid White;" alt="FireWood" width="100%" height="600"></center></div>
-  </body>
-                    
-  <style>
-    aside {
-      width: 50%
-    }
-    body {
-      background-color: #8B4513;
-      text-align:centre;
-    }
-    div.container {
-    width: 100%;
-    border: 1px solid gray;
+body, html {
+    height: 100%;
 }
-      header {
-    padding: 1em;
-    color: #8B4513;
-    background-color:white;
-    clear: left;
+
+/* The hero image */
+.hero-image {
+    /* The image used */
+    background-image: url("bear.gif");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
     text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
-    
-    
-
-  <meta charset="UTF-8">
-  <meta name="description" content="links">
-  <meta name="keywords" content="education">
-  <meta name="author" content="Bear Waldron">
-  <meta http-equiv="refresh" content="60">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-   
-</html>
