@@ -7,7 +7,7 @@ body, html {
 }
 
 .bgimg {
-    background-image: url('bridge2.jpg');
+    background-image: url('bridge.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -78,8 +78,8 @@ var countdownfunction = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
+    document.getElementById("demo").innerHTML = days + " days, " + hours + " hours, "
+    + minutes + " minutes and " + seconds + " seconds ";
     
     // If the count down is over, write some text 
     if (distance < 0) {
